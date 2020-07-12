@@ -12,4 +12,7 @@ elif idade < 18:
     else:
         print(f'Faltam {falta} anos para se alistar')
 if idade > 18:
-    print('Você ja se alistou ou ja deveria ter sido alistado')
+    saldo = 18 - idade
+    print(f'Você ja se alistou ou ja deveria ter sido alistado há {saldo} atras')
+else:
+    print('Você tem que se alistar esse ano')
